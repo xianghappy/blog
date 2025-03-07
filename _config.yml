@@ -1,0 +1,23 @@
+title: 我的博客
+description: 欢迎来到我的个人博客
+baseurl: ""
+url: ""
+
+# 主题设置
+theme: minima
+
+# 构建设置
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 
